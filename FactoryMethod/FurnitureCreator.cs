@@ -21,14 +21,14 @@ namespace FactoryMethod
         public string CreateSofaFurniture()
         {
             Console.WriteLine("Производится Диван");
-            var chair = CreateSofa();
-            return chair.Print();
+            var sofa = CreateSofa();
+            return sofa.Print();
         }
         public string CreateTableFurniture()
         {
             Console.WriteLine("Производится Диван");
-            var chair = CreateTable();
-            return chair.Print();
+            var table = CreateTable();
+            return table.Print();
         }
     }
 }
