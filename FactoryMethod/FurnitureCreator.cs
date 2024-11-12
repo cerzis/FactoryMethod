@@ -14,7 +14,7 @@ namespace FactoryMethod
 
         public string CreateChairFurniture()
         {
-            Console.WriteLine("Производится Диван");
+            Console.WriteLine("Производится Стул");
             var chair = CreateChair();
             return chair.Print();
         }
@@ -26,7 +26,7 @@ namespace FactoryMethod
         }
         public string CreateTableFurniture()
         {
-            Console.WriteLine("Производится Диван");
+            Console.WriteLine("Производится Стол");
             var table = CreateTable();
             return table.Print();
         }
